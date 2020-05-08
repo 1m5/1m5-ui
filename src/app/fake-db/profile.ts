@@ -4,14 +4,6 @@ export class ProfileFakeDb
         activities: [
             {
                 'user'   : {
-                    'name'  : 'Alice Freeman',
-                    'avatar': 'assets/images/avatars/alice.jpg'
-                },
-                'message': 'started following you.',
-                'time'   : '13 mins. ago'
-            },
-            {
-                'user'   : {
                     'name'  : 'Andrew Green',
                     'avatar': 'assets/images/avatars/andrew.jpg'
                 },

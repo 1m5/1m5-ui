@@ -2,14 +2,6 @@ export class ChatPanelFakeDb
 {
     public static contacts = [
         {
-            'id'    : '5725a680b3249760ea21de52',
-            'name'  : 'Alice Freeman',
-            'avatar': 'assets/images/avatars/alice.jpg',
-            'status': 'online',
-            'mood'  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            'unread': '2'
-        },
-        {
             'id'    : '5725a680606588342058356d',
             'name'  : 'Arnold',
             'avatar': 'assets/images/avatars/Arnold.jpg',
