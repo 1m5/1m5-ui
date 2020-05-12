@@ -3,16 +3,15 @@
     <div id="login-intro" fxFlex fxHide fxShow.gt-xs>
 
         <div class="logo" [@animate]="{value:'*',params:{scale:'0.2'}}">
-            <img src="assets/images/logos/fuse.svg">
+            <img src="assets/images/logos/460r4-logo-nobg.svg">
         </div>
 
         <div class="title" [@animate]="{value:'*',params:{delay:'50ms',y:'25px'}}">
-            Welcome to the FUSE!
+            Welcome to 460R4!
         </div>
 
         <div class="description" [@animate]="{value:'*',params:{delay:'100ms',y:'25px'}}">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper nisl erat,
-            vel convallis elit fermentum pellentesque. Sed mollis velit facilisis facilisis viverra.
+            FREE MARKETS FOR ALL IAW THE NON-AGGRESSION PRINCIPLE
         </div>
 
     </div>
@@ -23,15 +22,15 @@
         <div id="login-form">
 
             <div class="logo" fxHide.gt-xs>
-                <img src="assets/images/logos/fuse.svg">
+                <img src="assets/images/logos/460r4-logo-nobg.svg">
             </div>
 
-            <div class="title">LOGIN TO YOUR ACCOUNT</div>
+            <div class="title">CHOOSE A PROFILE</div>
 
             <form name="loginForm" [formGroup]="loginForm" novalidate>
 
                 <mat-form-field appearance="outline">
-                    <mat-label>Email</mat-label>
+                    <mat-label>Alias</mat-label>
                     <input matInput formControlName="email">
                     <mat-icon matSuffix class="secondary-text">mail</mat-icon>
                     <mat-error *ngIf="loginForm.get('email').hasError('required')">
@@ -45,7 +44,7 @@
                 </mat-form-field>
 
                 <mat-form-field appearance="outline">
-                    <mat-label>Password</mat-label>
+                    <mat-label>Passphrase</mat-label>
                     <input matInput type="password" formControlName="password">
                     <mat-icon matSuffix class="secondary-text">vpn_key</mat-icon>
                     <mat-error>
@@ -71,21 +70,21 @@
 
             </form>
 
-            <div class="separator">
-                <span class="text">OR</span>
-            </div>
+<!--            <div class="separator">-->
+<!--                <span class="text">OR</span>-->
+<!--            </div>-->
 
-            <div fxLayout="column" fxLayoutAlign="start center">
+<!--            <div fxLayout="column" fxLayoutAlign="start center">-->
 
-                <button mat-raised-button class="google">
-                    Log in with Google
-                </button>
+<!--                <button mat-raised-button class="google">-->
+<!--                    Log in with Google-->
+<!--                </button>-->
 
-                <button mat-raised-button class="facebook">
-                    Log in with Facebook
-                </button>
+<!--                <button mat-raised-button class="facebook">-->
+<!--                    Log in with Facebook-->
+<!--                </button>-->
 
-            </div>
+<!--            </div>-->
 
             <div class="register" fxLayout="column" fxLayoutAlign="center center">
                 <span class="text">Don't have an account?</span>
