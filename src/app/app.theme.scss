@@ -1,4 +1,54 @@
 // -----------------------------------------------------------------------------------------------------
+// @ Custom color maps for 460R4
+// -----------------------------------------------------------------------------------------------------
+$agora-white: (
+    500: white,
+    contrast: (
+        500: $dark-primary-text
+    )
+);
+
+$agora-black: (
+    500: black,
+    contrast: (
+        500: $light-primary-text,
+    )
+);
+
+$agora-orange: (
+   50: #f5b800,
+   100: #f4a343,
+   200: #f29058,
+   300: #f17b6b,
+   400: #f06f72,
+   500: #ef6a71,
+   600: #460306,
+   700: #3a040c,
+   800: #2c0216,
+   900: #17021b,
+   A100: #f4a343,
+   A200: #f29058,
+   A400: #f06f72,
+   A700: #3a040c,
+   contrast: (
+       50: $dark-primary-text,
+       100: $dark-primary-text,
+       200: $dark-primary-text,
+       300: $light-primary-text,
+       400: $light-primary-text,
+       500: $light-primary-text,
+       600: $light-primary-text,
+       700: $light-primary-text,
+       800: $light-primary-text,
+       900: $light-primary-text,
+       A100: $dark-primary-text,
+       A200: $light-primary-text,
+       A400: $light-primary-text,
+       A700: $light-primary-text,
+   )
+);
+
+// -----------------------------------------------------------------------------------------------------
 // @ Custom color maps for Fuse
 // -----------------------------------------------------------------------------------------------------
 $fuse-white: (
