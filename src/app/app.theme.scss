@@ -1,21 +1,21 @@
 // -----------------------------------------------------------------------------------------------------
-// @ Custom color maps for 460R4
+// @ Custom color maps for 1M5
 // -----------------------------------------------------------------------------------------------------
-$agora-white: (
+$ims-white: (
     500: white,
     contrast: (
         500: $dark-primary-text
     )
 );
 
-$agora-black: (
+$ims-black: (
     500: black,
     contrast: (
         500: $light-primary-text,
     )
 );
 
-$agora-orange: (
+$ims-orange: (
    50: #f5b800,
    100: #f4a343,
    200: #f29058,
