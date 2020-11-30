@@ -262,17 +262,17 @@ export class ProfileFakeDb
 
     public static about = {
         'general': {
-            'gender'   : 'Male',
+            'gender'   : 'Female',
             'birthday' : 'February 30th, 1974',
             'locations': [
-                'London, UK',
-                'New York, USA'
+                'San Jose, CR',
+                'Akron, OH, USA'
             ],
-            'about'    : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget pharetra felis, sed ullamcorper dui. Sed et elementum neque. Vestibulum pellente viverra ultrices. Etiam justo augue, vehicula ac gravida a, interdum sit amet nisl. Integer vitae nisi id nibh dictum mollis in vitae tortor.'
+            'about'    : 'Loves cats.'
         },
         'work'   : {
-            'occupation': 'Developer',
-            'skills'    : 'C#, PHP, Javascript, Angular, JS, HTML, CSS',
+            'occupation': 'Security Developer',
+            'skills'    : 'Java, Rust, Javascript, Typescript, Angular, React, HTML, CSS',
             'jobs'      : [
                 {
                     'company': 'Self-Employed',
@@ -287,26 +287,26 @@ export class ProfileFakeDb
         'contact': {
             'address' : 'Ut pharetra luctus est quis sodales. Duis nisi tortor, bibendum eget tincidunt, aliquam ac elit. Mauris nec euismod odio.',
             'tel'     : [
-                '+6 555 6600',
-                '+9 555 5255'
+                '+01 555 555 6600',
+                '+9 555 555 5255'
             ],
             'websites': [
                 'withinpixels.com'
             ],
             'emails'  : [
-                'mail@withinpixels.com',
-                'mail@creapond.com'
+                'alice.freeman@1m5',
+                'alice.freeman@protonmail.com'
             ]
         },
         'groups' : [
             {
-                'name'    : 'Android',
-                'category': 'Technology',
-                'members' : '1.856.546'
+                'name'    : 'Censorship Resistance',
+                'category': 'Communications',
+                'members' : '546'
             },
             {
-                'name'    : 'Google',
-                'category': 'Web',
+                'name'    : 'Privacy',
+                'category': 'Security',
                 'members' : '1.226.121'
             },
             {
@@ -335,10 +335,6 @@ export class ProfileFakeDb
             {
                 'name'  : 'Vincent Munoz',
                 'avatar': 'assets/images/avatars/vincent.jpg'
-            },
-            {
-                'name'  : 'Alice Freeman',
-                'avatar': 'assets/images/avatars/alice.jpg'
             },
             {
                 'name'  : 'Andrew Green',
