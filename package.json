@@ -1,6 +1,6 @@
 {
     "name": "1m5",
-    "version": "0.6.5",
+    "version": "0.6.5.001",
     "scripts": {
         "ng": "ng",
         "start": "ng serve --open",

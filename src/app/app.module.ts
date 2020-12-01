@@ -40,7 +40,8 @@ const appRoutes: Routes = [
     },
     {
         path      : '**',
-        redirectTo: 'apps/dashboards/analytics'
+        redirectTo: 'pages/auth/login'
+//         redirectTo: 'apps/dashboards/analytics'
     }
 ];
 
